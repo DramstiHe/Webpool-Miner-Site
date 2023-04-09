@@ -1,0 +1,263 @@
+body {
+  background: #280065;
+  background-attachment: fixed;
+  color: #fff;
+  font-family: "Segoe UI" !important;
+  position: relative;
+}
+p, li{
+  color: #9ba8fe;
+}
+.table {
+ color: #fff;
+}
+.heading {
+  padding: 60px 0rem;
+  text-align: left;
+  margin: auto;
+  width:100%;
+  height:100vh;
+  min-height: 355px; 
+  background: url(../img/screen-1-bg.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.heading h1{
+  text-transform: uppercase;
+  font-size: 33px;
+  font-weight: 800;
+  text-align: left;
+}
+.heading p{
+  font-size: 19px;
+  color: #fff;
+}
+.what-to-do{
+  padding-bottom: 30px;
+  font-size: 17px;
+}
+.what-to-do div{
+  padding: 45px 0 0 0;
+  background-repeat: no-repeat !important;
+}
+.what-to-do div:first-of-type {
+  background: url(../img/01.png);
+}
+.what-to-do div:last-of-type {
+  background: url(../img/02.png);
+}
+.what-to-do h4{
+  text-align: left;
+}
+.what-to-do h2{
+  margin: 30px 0;
+}
+#loginForm input{
+  margin: 0 10px 0 20px;
+  width: 80%;
+  float: left;
+  background-color: #3B187D;
+  border-radius: 0;
+  color: #fff;
+  border: none;
+}
+#loginForm input, #loginForm .btn{
+  position: absolute;
+}
+#loginForm input{
+  height: 47px;
+  
+}
+input[type="text"]  { 
+ outline: none !important;
+ box-shadow: none !important; 
+}
+#loginForm .btn{
+  right: 15px;
+  z-index: 999;
+}
+#loginForm input::-webkit-input-placeholder {
+    color:#fff !important;
+}
+
+#loginForm input::-moz-placeholder {
+    color:#fff !important;
+}
+
+#loginForm input::-ms-placeholder {
+    color:#fff !important;
+}
+
+#loginForm input::placeholder {
+    color:#fff !important;
+}
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.screen-3{
+  background: url(../img/screen-3-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 120px;
+  margin-top: 40px;
+}
+.screen-3 img{
+  width: 100%;
+}
+.screen-3 div{
+  margin-top: 100px;
+  padding-bottom: 120px;
+}
+#users-table{
+  position: relative;
+  top: 25px;
+}
+.account-container{
+  margin-top: 15%;
+  text-align: left;
+}
+h1, h2, h3, h4, h5{
+  width: 100%;
+  padding: 10px 20px 0;
+  color: #fff;
+  text-align: center;
+}
+h4{
+  font-size: 21px;
+}
+
+#wmp-container h1, #wmp-container h2, #wmp-container h3, #wmp-container h4{
+  padding: 0;
+}
+ul, form, h1, h2, h3, h4, h5{
+  width: 100%;  
+}
+a{
+  text-decoration: underline ;
+  color: #fff;
+}
+a:hover{
+  color: #34de5b !important;
+  
+}
+.nav-bar-right{
+  float: right; margin: 0 20px 0 0;
+}
+.navbar-dark .navbar-nav .nav-link, .navbar-brand, .btn-default{
+  color: #fff;
+  text-decoration: none;
+}
+.navbar-nav a{
+  text-decoration: none; 
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+  color:  #34de5b;
+}
+.navbar-nav.ul{
+  width: auto;
+}
+.nav-link{
+  width: 120%;
+  padding-right: 2rem !important;
+}
+footer{
+  background: #200056;
+  
+  width: 100%;
+}
+footer p{
+  margin: 0;
+}
+p{
+  padding: 0 20px;
+}
+.logo{
+  margin: 0 20px 0 0;
+}
+.btn-default{
+  border-radius: 20px;
+  color: #000;
+  background: #FFCC00;
+  padding: 10px 45px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.btn-default:hover{
+  background: #533384;
+  color: #34de5b;
+}
+.navbar.fixed-top{
+  background: #200056;
+}
+.inner-container{
+  padding: 0 15px 20px;
+  width: 100%;
+  margin: 0 auto 30px;
+  border-radius: 3px;
+}
+.inner-container .row:first-child , {
+  width: 100%;
+}
+
+.btn-green{
+  margin:  0 0 0 20px;
+  background: #28a7452e;
+}
+.white{
+  color: #fff;
+}
+.unlogged{
+}
+.no-padding{
+  padding: 0;
+}
+.card{
+  background: none;
+  border: 1px solid #34de5b;
+}
+.card-body {
+  padding: 0;
+}
+
+.modal-content{
+  background: #104e46e8;
+}
+.reflink{
+  margin: 30px auto 0;
+}
+.modal-dialog{
+  margin: 17% auto;
+}
+.acc-block{
+ background: #200056;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+.acc-main p{
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+@media (max-width:768px){
+  .heading .col-sm-12{
+    margin-top: 20px !important;
+    text-align: center !important;
+    margin-bottom: 30px;
+    }
+  .heading{
+    background: none;
+  }
+  .what-to-do h2{
+    margin-top: -20px;
+  }
+  .screen-3 div{
+    margin-top: 0px;
+  }
+  .btn-default{
+    padding: 10px 25px;
+  }
+}
