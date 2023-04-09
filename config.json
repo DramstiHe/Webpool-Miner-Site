@@ -1,16 +1,15 @@
 {
-    "comission"       : "3",
-    "minimal_payout"  : "700",
+    "site_url"        :"",
+    "comission"       : "15",
+    "minimal_payout"  : "1000",
     "referral"        : "5",
-    "manual_payouts"  : "0",
+    "manual_payouts"  : "1",
 
-    "ec_api_key"      : "input ExpressCrypto api key here",
-    "ec_api_token"    : "input ExpressCrypto api token here",
+    "fh_api_key"      : "",
+    "wmp_site_key"    : "",
+    "wmp_private_key" : "",
+    "admin_name"      :"admin",
+    "admin_pwd"       :"admin",
 
-    "wmp_site_key"    : "input publik webminepool site key here",
-    "wmp_private_key" : "input private key from webminepool dashboard here",
-
-    "admin_name"      :"input admin username here",
-    "admin_pwd"       :"input admin password here",
-    "miner_url"       :"input url to miner with your pre-configured site key here"
+    "miner_url"       :""
 }
